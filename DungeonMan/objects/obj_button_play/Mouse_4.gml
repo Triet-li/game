@@ -11,5 +11,5 @@
 
 // Inherit the parent event
 event_inherited();
-room_goto(Room3);
+room_goto(rm_Lv1);
 
