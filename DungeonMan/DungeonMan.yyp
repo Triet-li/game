@@ -13,6 +13,7 @@
     {"id":{"name":"spr_v_warriorHurting","path":"sprites/spr_v_warriorHurting/spr_v_warriorHurting.yy",},"order":6,},
     {"id":{"name":"obj_button_play","path":"objects/obj_button_play/obj_button_play.yy",},"order":6,},
     {"id":{"name":"spr_v_warrirorRunning","path":"sprites/spr_v_warrirorRunning/spr_v_warrirorRunning.yy",},"order":5,},
+    {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},"order":2,},
     {"id":{"name":"oSkeleton","path":"objects/oSkeleton/oSkeleton.yy",},"order":2,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":1,},
     {"id":{"name":"spr_h_warriorIdle","path":"sprites/spr_h_warriorIdle/spr_h_warriorIdle.yy",},"order":0,},
@@ -53,6 +54,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
