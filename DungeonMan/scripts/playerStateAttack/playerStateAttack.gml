@@ -49,7 +49,7 @@ function playerStateAttack(){
 				ds_list_add(hitByAttack, hitID);
 				with(hitID)
 				{
-					sprite_index = spr_h_skeletonHurting;
+					enemyBeingHit();
 				}
 			}
 			

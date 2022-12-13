@@ -34,7 +34,6 @@ function playerStateFree(){
 	}
 	y = y + vsp; 
 
-
 	// DO HOA
 	if(key_left || key_right)
 	{

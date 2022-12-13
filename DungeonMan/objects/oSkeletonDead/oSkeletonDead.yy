@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oSkeleton",
+  "name": "oSkeletonDead",
   "spriteId": {
-    "name": "spr_h_skeletonRunning",
-    "path": "sprites/spr_h_skeletonRunning/spr_h_skeletonRunning.yy",
+    "name": "spr_skeletonDying",
+    "path": "sprites/spr_skeletonDying/spr_skeletonDying.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,9 +26,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
