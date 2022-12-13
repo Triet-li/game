@@ -9,7 +9,10 @@
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_h_warriorIdle",
+    "path": "sprites/spr_h_warriorIdle/spr_h_warriorIdle.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
