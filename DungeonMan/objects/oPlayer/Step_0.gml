@@ -5,6 +5,7 @@ if(hascontrol)
 	key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 	key_up = keyboard_check(vk_up) || keyboard_check(ord("W")); 
 	key_down = keyboard_check(vk_down) || keyboard_check(ord("S"));
+	key_attack = keyboard_check(vk_space) || mouse_check_button_pressed(mb_left);
 }
 else
 {
@@ -14,6 +15,11 @@ else
 	key_up = 0;
 }
 
+switch(state)
+{
+	case PLAYERSTATE.FREE: playerStateFree(); break;
+	case PLAYERSTATE.ATTACK: playerStateAttack(); break;
+}
 
 var h_move = key_right - key_left; // nếu dương thì di chuyển sang phải và ngược lại
 var v_move = key_down - key_up;    // nếu dương thì di chuyển xuống dưới và ngược lại
