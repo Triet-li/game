@@ -50,7 +50,7 @@ function playerStateFree(){
 		if(vsp == 0)
 			sprite_index = spr_v_warriorIdle;
 		else if( key_up )
-			sprite_index = spr_back_warriorRunning;
+			sprite_index = spr_up_warriorRunning;
 		else
 			sprite_index = spr_v_warrirorRunning;
 	}

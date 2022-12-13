@@ -6,25 +6,37 @@ function playerStateAttack(){
 	vsp = 0;
 	
 	// Start of the attack
-	if(sprite_index != spr_h_warriorAttacking )//|| sprite_index != spr_v_warriorAttacking)
+	if(sprite_index != spr_h_warriorAttacking )
 	{
-	//	if(hsp != 0)
-		//{
+		if((sprite_index == spr_h_warriorIdle) || (sprite_index == spr_h_warriorRunning))
+		{
 			sprite_index = spr_h_warriorAttacking;
+			image_index = 1;
+			ds_list_clear(hitByAttack);
+		}
+		else if((sprite_index == spr_v_warriorIdle) || (sprite_index == spr_v_warrirorRunning))
+		{
+			sprite_index = spr_v_warriorAttacking;
 			image_index = 0;
 			ds_list_clear(hitByAttack);
-		//}
-		//else
-		//{
-		//	sprite_index = spr_v_warriorAttacking;
-			//image_index = 0;
-		//	ds_list_clear(hitByAttack);
-	//	}
+		}
+		else if ( sprite_index == spr_up_warriorRunning)
+		{
+			sprite_index = spr_up_warriorAttacking;
+			image_index = 0;
+			ds_list_clear(hitByAttack);
+		}
 		
 	}
 	
 	// use attack hitbox & check for hit
-	mask_index = spr_attackHitBoxes;
+	if(sprite_index == spr_h_warriorAttacking)
+			mask_index = spr_attackHitBoxes;
+	else if (sprite_index == spr_v_warriorAttacking)
+			mask_index = spr_d_attackHitBox;
+	else if (sprite_index == spr_up_warriorAttacking)
+			mask_index = spr_up_attackHitBox;
+	//mask_index = spr_attackHitBoxes;
 	var hitByAttackNow = ds_list_create();
 	var hits = instance_place_list(x,y,oSkeleton,hitByAttackNow,false);
 	if(hits > 0)
@@ -44,11 +56,20 @@ function playerStateAttack(){
 		}
 	}
 	ds_list_destroy(hitByAttackNow);
-	mask_index = spr_h_warriorIdle;
+	
+			//mask_index = spr_h_warriorIdle;
+			
+	mask_index = spr_v_warriorIdle;
+	//mask_index = spr_h_warriorIdle;
 	
 	if(Animation_end())
 	{
-		sprite_index = spr_h_warriorIdle;
+		/*if(sprite_index == spr_h_warriorAttacking)
+			sprite_index = spr_h_warriorIdle;
+		else if(sprite_index == spr_v_warriorAttacking)
+			sprite_index = spr_v_warriorIdle;
+	*/
+		sprite_index = spr_v_warriorIdle;
 		state = PLAYERSTATE.FREE;
 	}
 }
