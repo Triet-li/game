@@ -57,18 +57,12 @@ function playerStateAttack(){
 	}
 	ds_list_destroy(hitByAttackNow);
 	
-			//mask_index = spr_h_warriorIdle;
 			
 	mask_index = spr_v_warriorIdle;
-	//mask_index = spr_h_warriorIdle;
+	
 	
 	if(Animation_end())
 	{
-		/*if(sprite_index == spr_h_warriorAttacking)
-			sprite_index = spr_h_warriorIdle;
-		else if(sprite_index == spr_v_warriorAttacking)
-			sprite_index = spr_v_warriorIdle;
-	*/
 		sprite_index = spr_v_warriorIdle;
 		state = PLAYERSTATE.FREE;
 	}
