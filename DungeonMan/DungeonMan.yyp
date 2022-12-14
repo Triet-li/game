@@ -45,7 +45,6 @@
     {"id":{"name":"oSword_1","path":"objects/oSword_1/oSword_1.yy",},"order":16,},
     {"id":{"name":"spr_up_warriorAttacking","path":"sprites/spr_up_warriorAttacking/spr_up_warriorAttacking.yy",},"order":9,},
     {"id":{"name":"spr_gold_1","path":"sprites/spr_gold_1/spr_gold_1.yy",},"order":35,},
-    {"id":{"name":"oPlayer_1","path":"objects/oPlayer_1/oPlayer_1.yy",},"order":13,},
     {"id":{"name":"spr_attackHitBoxes","path":"sprites/spr_attackHitBoxes/spr_attackHitBoxes.yy",},"order":1,},
     {"id":{"name":"oSword","path":"objects/oSword/oSword.yy",},"order":4,},
     {"id":{"name":"oGold_1","path":"objects/oGold_1/oGold_1.yy",},"order":15,},
