@@ -51,6 +51,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_50C5ED9A","properties":[],"isDnd":false,"objectId":{"name":"oGold","path":"objects/oGold/oGold.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2656.0,"y":160.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_50E24B79","properties":[],"isDnd":false,"objectId":{"name":"oGold","path":"objects/oGold/oGold.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2624.0,"y":1472.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_B2CBFE3","properties":[],"isDnd":false,"objectId":{"name":"oGUI","path":"objects/oGUI/oGUI.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":160.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1BFD82D2","properties":[],"isDnd":false,"objectId":{"name":"oGame","path":"objects/oGame/oGame.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":160.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRLayer","resourceVersion":"1.0","name":"Folder_1","visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[
         {"resourceType":"GMRPathLayer","resourceVersion":"1.0","name":"Path_2","pathId":{"name":"Path2","path":"paths/Path2/Path2.yy",},"colour":4278190335,"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
@@ -762,6 +763,7 @@
     {"name":"inst_5E4B75AE","path":"rooms/rm_Lv2/rm_Lv2.yy",},
     {"name":"inst_396B70CD","path":"rooms/rm_Lv2/rm_Lv2.yy",},
     {"name":"inst_65DB59C4","path":"rooms/rm_Lv2/rm_Lv2.yy",},
+    {"name":"inst_1BFD82D2","path":"rooms/rm_Lv2/rm_Lv2.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

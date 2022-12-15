@@ -5,6 +5,7 @@
 with(other)
 {
 	audio_play_sound(coin_collecting, 4, false);
+	global.scores++;
 	instance_destroy();
 }
 
