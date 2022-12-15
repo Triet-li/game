@@ -14,7 +14,7 @@
     {"speed":100.0,"x":2080.0,"y":1440.0,},
   ],
   "parent": {
-    "name": "Paths",
-    "path": "folders/Paths.yy",
+    "name": "rm_Lv2",
+    "path": "folders/Paths/rm_Lv2.yy",
   },
 }
