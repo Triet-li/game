@@ -11,6 +11,6 @@
 
 // Inherit the parent event
 event_inherited();
-
+audio_play_sound(clicking, 10, false);
 game_end();
 

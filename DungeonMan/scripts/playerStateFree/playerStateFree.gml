@@ -56,7 +56,11 @@ function playerStateFree(){
 
 	if(hsp != 0) image_xscale = sign(hsp); // làm cho nhân vật quay phải hoặc trái
 	
-	if(key_attack) state = PLAYERSTATE.ATTACK;
+	if(key_attack) 
+	{
+		state = PLAYERSTATE.ATTACK;
+		audio_play_sound(sword_swinging, 5, false);
+	}
 
 
 }

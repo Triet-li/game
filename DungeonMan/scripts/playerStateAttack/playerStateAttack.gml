@@ -50,18 +50,7 @@ function playerStateAttack(){
 				with(hitID)
 				{
 					enemyBeingHit();
-					/*--hp;
-					flash = 3;
-					sprite_index = spr_skeletonHurt1;
-					hitfrom = other.direction;
-					//hsp = lengthdir_x(0, hitfrom);
-					//vsp = lengthdir_y(3, hitfrom);
-					direction = hitID.hitfrom
-					if(sprite_index == spr_v_warriorAttacking)
-					{
-						vsp = lengthdir_y(3, direction)
-					}
-					*/
+				
 				}
 			}
 			

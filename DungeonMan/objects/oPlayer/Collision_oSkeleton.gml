@@ -6,7 +6,7 @@ with(oGUI)
 	//if(player_lives <= 0);
 }
 --hp;
-
+audio_play_sound(hurt, 6, false);
  
  if(sprite_index = spr_h_warriorRunning)
  {
