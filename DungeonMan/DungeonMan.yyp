@@ -5,6 +5,7 @@
   "resources": [
     {"id":{"name":"coin_collecting","path":"sounds/coin_collecting/coin_collecting.yy",},"order":0,},
     {"id":{"name":"Path9","path":"paths/Path9/Path9.yy",},"order":0,},
+    {"id":{"name":"oGameName","path":"objects/oGameName/oGameName.yy",},"order":19,},
     {"id":{"name":"Animation_end","path":"scripts/Animation_end/Animation_end.yy",},"order":3,},
     {"id":{"name":"o_triggerArea","path":"objects/o_triggerArea/o_triggerArea.yy",},"order":9,},
     {"id":{"name":"spr_sword","path":"sprites/spr_sword/spr_sword.yy",},"order":1,},
@@ -33,6 +34,7 @@
     {"id":{"name":"spr_v_warriorHurting","path":"sprites/spr_v_warriorHurting/spr_v_warriorHurting.yy",},"order":7,},
     {"id":{"name":"obj_button_play","path":"objects/obj_button_play/obj_button_play.yy",},"order":6,},
     {"id":{"name":"oMaxScore","path":"objects/oMaxScore/oMaxScore.yy",},"order":16,},
+    {"id":{"name":"fnt_gameName","path":"fonts/fnt_gameName/fnt_gameName.yy",},"order":1,},
     {"id":{"name":"Path6","path":"paths/Path6/Path6.yy",},"order":7,},
     {"id":{"name":"spr_skeletonHurt1","path":"sprites/spr_skeletonHurt1/spr_skeletonHurt1.yy",},"order":7,},
     {"id":{"name":"spr_v_warrirorRunning","path":"sprites/spr_v_warrirorRunning/spr_v_warrirorRunning.yy",},"order":5,},
@@ -77,6 +79,7 @@
     {"id":{"name":"spr_warriorHurt","path":"sprites/spr_warriorHurt/spr_warriorHurt.yy",},"order":10,},
     {"id":{"name":"spr_up_skeletonRunning","path":"sprites/spr_up_skeletonRunning/spr_up_skeletonRunning.yy",},"order":9,},
     {"id":{"name":"Path8","path":"paths/Path8/Path8.yy",},"order":9,},
+    {"id":{"name":"oControl","path":"objects/oControl/oControl.yy",},"order":18,},
     {"id":{"name":"Path14","path":"paths/Path14/Path14.yy",},"order":3,},
     {"id":{"name":"Path20","path":"paths/Path20/Path20.yy",},"order":9,},
     {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},"order":1,},

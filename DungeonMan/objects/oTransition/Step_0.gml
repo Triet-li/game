@@ -31,6 +31,11 @@ if (mode != TRANS_MODE.OFF)
 			case TRANS_MODE.GOTO:
 			{
 				mode = TRANS_MODE.INTRO;
+				with(oGame) {++changeRoom;}
+				if(target != rm_esc_endGame)
+				{
+					global.maxScore = global.scores;
+				}
 				room_goto(target);
 				break;
 			}

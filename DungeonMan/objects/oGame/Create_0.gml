@@ -4,6 +4,8 @@
 // kill: 5 points, 1 coin = 1 points
 global.scores = 0;
 
+changeRoom = 0;
+temp = 0;
 
 
 

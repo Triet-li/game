@@ -11,10 +11,15 @@
 
 // Inherit the parent event
 event_inherited();
-audio_play_sound(clicking, 10, false);
-with(sound)
+if(instance_exists(oControl))
 {
-	audio_stop_sound(background_music);
+	instance_destroy(oControl);
 }
-room_goto(rm_lv3);
+else
+{ 
+	instance_create_layer(room_width/2, room_height - 95, "Instances", oControl);
+} 
+
+
+audio_play_sound(clicking, 10, false);
 

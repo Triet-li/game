@@ -12,6 +12,7 @@
 // Inherit the parent event
 event_inherited();
 audio_play_sound(clicking, 10, false);
+global.scores = 0;
 with(sound)
 {
 	audio_stop_sound(background_music);
