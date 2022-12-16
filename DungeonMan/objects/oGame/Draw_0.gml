@@ -5,7 +5,8 @@
 
 
 	draw_set_color(c_white);
-	draw_text(camera_get_view_x(view_camera[0]),camera_get_view_y(view_camera[0]), string("Scores: ") + string(global.scores));
+	if(room != rm_menu)
+		draw_text(camera_get_view_x(view_camera[0]),camera_get_view_y(view_camera[0]), string("Scores: ") + string(global.scores));
 	
 
 

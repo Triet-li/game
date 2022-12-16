@@ -49,6 +49,8 @@ function playerStateAttack(){
 				ds_list_add(hitByAttack, hitID);
 				with(hitID)
 				{
+					x = 0;
+					y = 0;
 					enemyBeingHit();
 				
 				}

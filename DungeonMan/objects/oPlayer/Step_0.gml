@@ -22,4 +22,4 @@ switch(state)
 }
 
 
-if(hp <= 0) slideTransition(TRANS_MODE.GOTO,rm_menu);
+if(hp <= 0) slideTransition(TRANS_MODE.GOTO,rm_esc_endGame);

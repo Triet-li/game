@@ -20,3 +20,7 @@ if(direction >= 136 && direction <= 225)
 if(direction >= 226 && direction <= 305) sprite_index = spr_d_skeletonRunning;
 
 
+if(collision_rectangle(x-120,y-120,x+120,y+120,oPlayer,false,true))
+{
+	self.direction = point_direction(x,y,oPlayer.x,oPlayer.y);
+}
