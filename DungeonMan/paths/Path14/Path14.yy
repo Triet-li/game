@@ -16,7 +16,7 @@
     {"speed":100.0,"x":2912.0,"y":1888.0,},
   ],
   "parent": {
-    "name": "pRoom3",
-    "path": "folders/Paths/pRoom3.yy",
+    "name": "P_rm_lv4",
+    "path": "folders/Paths/P_rm_lv4.yy",
   },
 }

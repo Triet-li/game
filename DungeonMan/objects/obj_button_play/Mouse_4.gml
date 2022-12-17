@@ -17,5 +17,5 @@ with(sound)
 {
 	audio_stop_sound(background_music);
 }
-room_goto(rm_lv3);
+room_goto(rm_lv1);
 

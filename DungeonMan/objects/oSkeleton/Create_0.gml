@@ -8,7 +8,7 @@ hsp = 0;
 vsp = 0;
 //hitfrom = 0;
 
-
+// enemy path room lv3
 with(inst_E6A7153) 
 {
 	path_start(Path1, 3, path_action_reverse, false);
@@ -71,8 +71,9 @@ with(inst_396B70CD)
 	
 }
 
-// Path for skeleton map level final
 
+
+// enemy path room lv4
 with(i1) 
 {
 	path_start(Path11, 3, path_action_reverse, true);
@@ -194,3 +195,110 @@ with(i20)
 	
 }
 
+
+// enemy path room lv1
+with(inst_10442A91) 
+{
+	path_start(Path31, 3, path_action_reverse, true);
+	
+}
+
+
+with(inst_12A9AF43) 
+{
+	path_start(Path32, 3, path_action_reverse, true);
+	
+}
+
+with(inst_351F6863) 
+{
+	path_start(Path33, 3, path_action_reverse, true);
+	
+}
+
+with(inst_3F5B6CC0) 
+{
+	path_start(Path34, 3, path_action_reverse, true);
+	
+}
+
+with(inst_2AA75CD1) 
+{
+	path_start(Path35, 3, path_action_reverse, true);
+	
+}
+
+// enemy path room lv2
+
+
+with(inst_DF9A69B) 
+{
+	path_start(Path36, 3, path_action_reverse, true);
+	
+}
+
+with(inst_60C61782) 
+{
+	path_start(Path37, 3, path_action_reverse, true);
+	
+}
+
+with(inst_28B16BAA) 
+{
+	path_start(Path38, 3, path_action_reverse, true);
+	
+}
+
+with(inst_3BB93D12) 
+{
+	path_start(Path39, 3, path_action_reverse, true);
+	
+}
+
+with(inst_3C714A5E) 
+{
+	path_start(Path40, 3, path_action_reverse, true);
+	
+}
+
+with(inst_1DCD6982) 
+{
+	path_start(Path41, 3, path_action_reverse, true);
+	
+}
+
+with(inst_8953A18) 
+{
+	path_start(Path42, 3, path_action_reverse, true);
+	
+}
+
+with(inst_B6D687) 
+{
+	path_start(Path43, 3, path_action_reverse, true);
+	
+}
+
+with(inst_7ED97F1C) 
+{
+	path_start(Path44, 3, path_action_reverse, true);
+	
+}
+
+with(inst_45AFFE5E) 
+{
+	path_start(Path45, 3, path_action_reverse, true);
+	
+}
+
+with(inst_7D81238D) 
+{
+	path_start(Path46, 3, path_action_reverse, true);
+	
+}
+
+with(inst_225B70F3) 
+{
+	path_start(Path47, 3, path_action_reverse, true);
+	
+}

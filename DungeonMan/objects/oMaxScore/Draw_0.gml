@@ -6,4 +6,7 @@
 draw_set_color(c_white);
 
 if(room == rm_esc_endGame)
+{
 	draw_text((room_width/2) -200,(room_height/2) - 50, string("Highest scores: ") + string(global.maxScore));
+	draw_text((room_width/2) -200,(room_height/2) - 150, string("Your scores: ") + string(global.scores));
+}
